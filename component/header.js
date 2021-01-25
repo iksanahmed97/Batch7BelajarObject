@@ -1,5 +1,10 @@
-class Header {
+import Component from '../component/component';
+
+
+class Header extends Component {
+    
     constructor(headername){
+        super();
         this.headername = headername;
         console.log("constructor header")
     }
